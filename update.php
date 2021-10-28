@@ -12,7 +12,7 @@ foreach ($_POST['crypto_code'] as $key => $element) {
 
     insertDataToDb($cryptoRange, 'ranges');
 }
-
+// mano nauji pakeitimai
 header('Location: http://127.0.0.1:8000/');
 
 
